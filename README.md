@@ -4,7 +4,7 @@
 An automated tool that pulls and organizes All JS files from web targets using the **TomNomNom**'s [WayBackUrls](https://github.com/tomnomnom/waybackurls) and checks their HTTP Status using **Hakluke**'s [hackcheckurl](https://github.com/hakluke/hakcheckurl)
 
 # Requirements:
-You need to have golang installed in your device.
+You need to have [**golang**](https://golang.org/) installed in your device.
 Install golang with the following command:
 - `sudo apt install golang`
 
