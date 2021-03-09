@@ -5,5 +5,5 @@ go get github.com/hakluke/hakcheckurl
 
 # Copying the binaries to the dir `/usr/bin/`
 sudo cp ~/go/bin/waybackurls /usr/bin/
-sudo cp ~/go/bin/hackcheckurl /usr/bin/
+sudo cp ~/go/bin/hakcheckurl /usr/bin/
 echo "Done."
