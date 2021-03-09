@@ -10,7 +10,8 @@ waybackurls $1 | grep "\.js" | uniq | sort >> /tmp/$1-waybackurls.txt
 
 # Using hakcheckurl to test the responses of the links we grabbed
 echo "Testing URLs..."
-cat /tmp/$1-waybackurls.txt | hakcheckurl >> output/$1-PulledJS.txt
+mkdir output/$1
+cat /tmp/$1-waybackurls.txt | hakcheckurl | grep 200 >> output/$1/AllPulledJS.txt
 
 
 echo "[+] Done."
