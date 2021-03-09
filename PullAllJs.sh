@@ -1,6 +1,6 @@
 if [ -z "$1" ]
 then
-        echo "Usage: ./PullAllJs.sh <DONMAIN.COM/IP>"
+        echo "Usage: ./PullAllJs.sh <DOMAIN.COM/IP>"
         exit 1
 fi
 
