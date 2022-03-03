@@ -21,7 +21,7 @@ Install golang with the following command:
 - After the successful execution of the script, you'll find the pulled JS files in the `output/` directory. 
 
 # Disclaimer
-- Usage of Docker Exorcise for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
+- Usage of PullAllJS for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
 
 # Credits
 - To **Tomnomnom** for creating [**waybackurls**](https://github.com/tomnomnom/waybackurls)
